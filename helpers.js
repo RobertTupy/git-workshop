@@ -10,5 +10,5 @@ function getRandomDate() {
 
 const example = [].map(name => ({
     name: name,
-    birthday: getRandomDate()
+    birthday: getRandomDate().toISOString()
 }))
